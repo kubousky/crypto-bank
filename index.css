@@ -1,0 +1,223 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.nav-link{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+
+#header{
+    min-height: 400px;
+}
+#img{
+    /*min-height: 400px;*/
+    /*position: absolute;*/
+    /*margin-top: 0px;*/
+	background: url('https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+    height: 400px;
+    filter: brightness(50%);
+	z-index: -1; /*para que el imagen este siempre por detras*/
+}
+
+
+#text {
+    margin-left: 25%;
+    position: absolute;
+    margin-top: -320px;
+    border-color:grey;
+    border-style: solid;
+    border-width: 7px;
+    width: 50%;
+}
+
+#text p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 20px;
+    line-height: 1.1;
+}
+
+#section-1{
+    min-height: 400px;
+    text-align: center;
+    align-items: center;
+}
+
+#section-1 #img-1{
+	background: url('https://image.freepik.com/free-vector/soft-blue-white-3d-hexagons-texture-background_41814-310.jpg');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	z-index: -1;
+}
+
+#row-standards2{
+    text-align: center;
+}
+#standard2{
+    display: inline-block;
+}
+
+
+#text-1 p{
+    padding-top: 30px;
+    color:#364B66;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+}
+
+#standard p{
+    color:#364B66;
+}
+
+#section-3{
+    min-height: 400px;
+}
+
+
+/*
+.play-button {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
+    border: 4px solid white;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3), inset 0 1px 2px rgba(0,0,0,0.3);
+    height: 34px;
+    margin: 0 auto;
+    padding: 18px 16px 18px 24px;
+    width: 30px;
+    }
+.play-button div {
+    border-color: transparent transparent transparent white;
+    border-style: solid; 
+    border-width: 17px 0 17px 30px;
+    display: block;
+    font-size: 0;
+    height: 0;
+    margin: 0 auto;
+    width: 0;
+}
+*/
+#header{
+    min-height: 400px;
+}
+#video{
+    background: url('https://image.freepik.com/free-vector/abstract-hexagonal-molecular-structures_41981-320.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    z-index: -1; 
+}
+
+#play {
+    margin-left: 25%;
+    position: absolute;
+    margin-top: -290px;
+    width: 50%;
+}
+
+#play a{
+    padding-left: 37%;
+}
+
+#play a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.main-footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 5px;
+    background: #364B66;
+}
+
+.main-footer .footer-text{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.name{
+    width: 100%;   
+    padding-left: 0%;
+    display: inline-flex;
+    padding-top: 0%;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.name a{
+    padding-right: 0.75%;
+    padding-top: 1%;
+}
+
+.main-footer .footer-text ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding-right: 10%;
+}
+ 
+
+.main-footer .footer-text ul li a{
+    color: gray;
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.main-footer .footer-text ul li a:hover{
+    color: #fff;
+}
+
+#social{
+    margin-right: 0%;
+}
+.fa {
+    color: gray;
+    padding-left: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .fa:hover {
+    color: white;
+    outline: none;
+    text-decoration: none;
+  }
+  
+.footer-copyright {
+    width: 100%;
+    padding-top: 0.5em;
+    font-size: 85%;
+    text-align: center;
+    background-color: rgb(44, 67, 97);
+}
